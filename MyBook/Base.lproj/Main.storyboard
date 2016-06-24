@@ -6,6 +6,35 @@
     </dependencies>
     <scenes>
         <!--Title-->
+        <scene sceneID="w20-z0-9bb">
+            <objects>
+                <viewController id="2Yi-aI-AGR" customClass="WebViewController" customModule="MyBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YF5-yO-2F8"/>
+                        <viewControllerLayoutGuide type="bottom" id="agI-g4-Zyo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pf1-nt-JPx">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hJl-CW-W5f">
+                                <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="Hwf-OE-AFa"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="bookWebView" destination="hJl-CW-W5f" id="X6k-Zo-QI0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bnL-FL-q6R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2205" y="129"/>
+        </scene>
+        <!--Title-->
         <scene sceneID="aSl-xN-DsW">
             <objects>
                 <viewController id="Nq9-At-EiG" customClass="BookDetailViewController" customModule="MyBook" customModuleProvider="target" sceneMemberID="viewController">
@@ -47,7 +76,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Title" id="hDe-wK-1qK"/>
+                    <navigationItem key="navigationItem" title="Title" id="hDe-wK-1qK">
+                        <barButtonItem key="rightBarButtonItem" title="교보문고" id="rdS-pm-HNA">
+                            <connections>
+                                <segue destination="2Yi-aI-AGR" kind="show" id="JTT-rC-Cdp"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="bookDesc" destination="6TU-9a-dol" id="4Ky-eo-SNR"/>

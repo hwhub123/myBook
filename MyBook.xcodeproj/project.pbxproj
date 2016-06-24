@@ -15,6 +15,7 @@
 		C93BA4AD1D1B6B5600B6F1CE /* BookInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93BA4AC1D1B6B5600B6F1CE /* BookInfo.swift */; };
 		C93BA4B31D1BBC4E00B6F1CE /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93BA4B21D1BBC4E00B6F1CE /* BookTableViewCell.swift */; };
 		C93BA4B51D1BC49300B6F1CE /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93BA4B41D1BC49300B6F1CE /* BookDetailViewController.swift */; };
+		C948C42D1D1CBB8C00EAD975 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C948C42C1D1CBB8C00EAD975 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C93BA4AC1D1B6B5600B6F1CE /* BookInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookInfo.swift; sourceTree = "<group>"; };
 		C93BA4B21D1BBC4E00B6F1CE /* BookTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
 		C93BA4B41D1BC49300B6F1CE /* BookDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		C948C42C1D1CBB8C00EAD975 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				C93BA4AC1D1B6B5600B6F1CE /* BookInfo.swift */,
 				C93BA4B21D1BBC4E00B6F1CE /* BookTableViewCell.swift */,
 				C93BA4B41D1BC49300B6F1CE /* BookDetailViewController.swift */,
+				C948C42C1D1CBB8C00EAD975 /* WebViewController.swift */,
 			);
 			path = MyBook;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C93BA4AD1D1B6B5600B6F1CE /* BookInfo.swift in Sources */,
+				C948C42D1D1CBB8C00EAD975 /* WebViewController.swift in Sources */,
 				C93BA49D1D1B6A4900B6F1CE /* ViewController.swift in Sources */,
 				C93BA4B31D1BBC4E00B6F1CE /* BookTableViewCell.swift in Sources */,
 				C93BA49B1D1B6A4800B6F1CE /* AppDelegate.swift in Sources */,
@@ -300,6 +304,7 @@
 				C93BA4AB1D1B6A4900B6F1CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
